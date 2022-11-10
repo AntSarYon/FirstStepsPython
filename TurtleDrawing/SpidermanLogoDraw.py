@@ -15,9 +15,11 @@ pendown()
 fillcolor('black')
 begin_fill()
 right(60)
+
 for i in range(6):
     forward(50)
     left(60)
+    
 end_fill()
 penup()
 left(150)
